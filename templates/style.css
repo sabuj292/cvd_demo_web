@@ -1,0 +1,41 @@
+/* google foonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Volkhov";
+}
+h1 {
+    font-weight: 600;
+}
+.button {
+    padding: 7px 25px;
+    background-color: #458ff6;
+}
+
+.both {
+    display: flex;
+    /* align-items: center; */
+}
+
+.d-img {
+    margin: 20px 0px;
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
