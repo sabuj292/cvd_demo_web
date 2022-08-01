@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
+from collections.abc import Mapping
 #from requests import request
 
 # app= Flask(__name__, template_folder='Template')
